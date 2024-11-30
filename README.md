@@ -2,6 +2,10 @@
 
 A full-stack blog platform with a modern UI, AI-powered features, and seamless user experience.
 
+## Preview
+
+https://github.com/user-attachments/assets/3d146026-0c6e-40fe-8167-6b666c4411e8
+
 ## Features
 
 ### Core Functionality
@@ -132,10 +136,6 @@ The application will be available at `http://localhost:3000`
 3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## Acknowledgments
 
