@@ -1,0 +1,52 @@
+:root[data-theme="light"] {
+    --bg-primary: #ffffff;
+    --bg-secondary: #f8f9fa;
+    --bg-tertiary: #e9ecef;
+    --text-primary: #2c3e50;
+    --text-secondary: #495057;
+    --text-tertiary: #6c757d;
+    --accent-primary: #3498db;
+    --accent-secondary: #2ecc71;
+    --accent-danger: #e74c3c;
+    --border-color: #dee2e6;
+    --shadow-color: rgba(0, 0, 0, 0.1);
+    --card-bg: #ffffff;
+    --navbar-bg: #ffffff;
+    --input-bg: #ffffff;
+    --input-border: #ced4da;
+    --hover-overlay: rgba(0, 0, 0, 0.05);
+}
+
+:root[data-theme="dark"] {
+    --bg-primary: #1a1a1a;
+    --bg-secondary: #2d2d2d;
+    --bg-tertiary: #333333;
+    --text-primary: #e9ecef;
+    --text-secondary: #ced4da;
+    --text-tertiary: #adb5bd;
+    --accent-primary: #3498db;
+    --accent-secondary: #2ecc71;
+    --accent-danger: #e74c3c;
+    --border-color: #404040;
+    --shadow-color: rgba(0, 0, 0, 0.3);
+    --card-bg: #2d2d2d;
+    --navbar-bg: #1a1a1a;
+    --input-bg: #333333;
+    --input-border: #404040;
+    --hover-overlay: rgba(255, 255, 255, 0.05);
+}
+
+/* Global Styles */
+body {
+    background-color: var(--bg-primary);
+    color: var(--text-primary);
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Animation for theme transition */
+* {
+    transition: background-color 0.3s ease,
+                color 0.3s ease,
+                border-color 0.3s ease,
+                box-shadow 0.3s ease;
+}

@@ -1,0 +1,153 @@
+.profile-container {
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+.profile-header {
+  background: white;
+  border-radius: 8px;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.profile-info h1 {
+  margin: 0;
+  color: #2c3e50;
+  font-size: 2rem;
+}
+
+.profile-info .email {
+  color: #666;
+  margin: 0.5rem 0;
+}
+
+.profile-info .stats {
+  color: #3498db;
+  font-weight: 500;
+  margin: 1rem 0 0;
+}
+
+.profile-posts {
+  background: white;
+  border-radius: 8px;
+  padding: 2rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.profile-posts h2 {
+  color: #2c3e50;
+  margin-top: 0;
+}
+
+.posts-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.post-card {
+  background: #f8f9fa;
+  border-radius: 8px;
+  padding: 1.5rem;
+  transition: transform 0.2s;
+}
+
+.post-card:hover {
+  transform: translateY(-2px);
+}
+
+.post-card h3 {
+  color: #2c3e50;
+  margin: 0 0 1rem;
+  font-size: 1.25rem;
+}
+
+.post-preview {
+  color: #666;
+  font-size: 0.9rem;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+.post-meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #666;
+  font-size: 0.9rem;
+}
+
+.post-actions {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.view-button, .edit-button {
+  padding: 0.4rem 0.8rem;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.view-button {
+  background-color: #2ecc71;
+  color: white;
+}
+
+.view-button:hover {
+  background-color: #27ae60;
+}
+
+.edit-button {
+  background-color: #3498db;
+  color: white;
+}
+
+.edit-button:hover {
+  background-color: #2980b9;
+}
+
+.no-posts {
+  text-align: center;
+  color: #666;
+  padding: 2rem;
+  background: #f8f9fa;
+  border-radius: 8px;
+}
+
+.loading {
+  text-align: center;
+  padding: 2rem;
+  color: #666;
+}
+
+.error-message {
+  text-align: center;
+  padding: 2rem;
+  color: #e74c3c;
+  background: #fde8e7;
+  border-radius: 8px;
+}
+
+.error-message a {
+  color: #c0392b;
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .profile-container {
+    margin: 1rem auto;
+  }
+
+  .profile-header, .profile-posts {
+    padding: 1.5rem;
+  }
+
+  .posts-grid {
+    grid-template-columns: 1fr;
+  }
+}
