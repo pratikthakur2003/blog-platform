@@ -66,7 +66,7 @@ A full-stack blog platform with a modern UI, AI-powered features, and seamless u
 
 1. Clone the repository
 ```bash
-git clone [repository-url]
+git clone https://github.com/pratikthakur2003/blog-platform.git
 ```
 
 2. Install dependencies
